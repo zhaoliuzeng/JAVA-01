@@ -31,15 +31,11 @@ public class RequestContext {
         return httpOutboundHandler;
     }
 
-
     public FullHttpRequest getFullRequest() {
         return fullRequest;
     }
 
-
     public ChannelHandlerContext getCtx() {
         return ctx;
     }
-
-
 }

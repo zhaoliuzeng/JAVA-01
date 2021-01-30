@@ -39,7 +39,7 @@ public class HttpInboundHandler extends ChannelInboundHandlerAdapter {
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
-            ReferenceCountUtil.release(msg);
+//            ReferenceCountUtil.release(msg);
         }
     }
 }

@@ -32,7 +32,7 @@ public class HttpOutboundHandler {
     private final ExecutorService proxyService;
     private final String backendUrl;
     private final String routerStrategy;
-    private static final List<String> ROUTER_IPS = Arrays.asList("www.12306.com");
+    private static final List<String> ROUTER_IPS = Arrays.asList("http://www.baidu.com/");
 
 
     public HttpOutboundHandler(String backendUrl, String routerStrategy) {
@@ -71,6 +71,7 @@ public class HttpOutboundHandler {
         //httpGet.setHeader(HTTP.CONN_DIRECTIVE, HTTP.CONN_CLOSE);
         httpGet.setHeader(HTTP.CONN_DIRECTIVE, HTTP.CONN_KEEP_ALIVE);
         httpclient.execute(httpGet, new FutureCallback<HttpResponse>() {
+
             @Override
             public void completed(final HttpResponse endpointResponse) {
                 try {
