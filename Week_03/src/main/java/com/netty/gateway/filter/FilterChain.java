@@ -5,10 +5,10 @@ import com.netty.gateway.model.RequestContext;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 
 public class FilterChain {
-    private static volatile boolean invoked = false;
     private List<GlobelFilter> filters = new ArrayList<>();
     private int index;
 
@@ -29,8 +29,8 @@ public class FilterChain {
             filter.filter(requestContext, new FilterChain((index + 1)));
         }
 
-        if (!invoked) {
-            invoked = true;
+        if (!requestContext.getInvokeCount().get()) {
+            requestContext.getInvokeCount().set(true);
             requestContext.getHttpOutboundHandler().handle(requestContext.getFullRequest(), requestContext.getCtx());
         }
         return false;

@@ -62,7 +62,7 @@ public class HttpOutboundHandler {
     }
 
     public void handle(final FullHttpRequest fullRequest, final ChannelHandlerContext ctx) {
-        final String url = RouterEnum.valueOf(this.routerStrategy).route(ROUTER_IPS);
+        final String url = RouterEnum.getEnum(this.routerStrategy).route(ROUTER_IPS);
         proxyService.submit(() -> fetchGet(fullRequest, ctx, url));
     }
 

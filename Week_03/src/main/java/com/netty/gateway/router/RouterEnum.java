@@ -30,5 +30,13 @@ public enum RouterEnum {
         this.name = name;
     }
 
+    public static RouterEnum getEnum(String name){
+        for(RouterEnum item : values()){
+            if(item.name.equalsIgnoreCase(name))
+                return item;
+        }
+        return null;
+    }
+
     public abstract String route(List<String> endpoints);
 }
