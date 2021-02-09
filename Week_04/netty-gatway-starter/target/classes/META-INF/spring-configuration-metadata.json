@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "netty",
+      "type": "gatway.auto.GatewayConfig",
+      "sourceType": "gatway.auto.GatewayConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "netty.backend-services",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "gatway.auto.GatewayConfig"
+    },
+    {
+      "name": "netty.enable-filters",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "gatway.auto.GatewayConfig"
+    },
+    {
+      "name": "netty.name",
+      "type": "java.lang.String",
+      "sourceType": "gatway.auto.GatewayConfig"
+    },
+    {
+      "name": "netty.router-name",
+      "type": "java.lang.String",
+      "sourceType": "gatway.auto.GatewayConfig"
+    }
+  ],
+  "hints": []
+}

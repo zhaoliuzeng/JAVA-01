@@ -1,0 +1,4 @@
+gatway\auto\AutoConfigrution.class
+META-INF\spring-configuration-metadata.json
+gatway\auto\GatewayConfig.class
+gatway\auto\NettyService.class
