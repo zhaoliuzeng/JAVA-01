@@ -5,7 +5,7 @@ import org.springframework.boot.context.properties.ConfigurationPropertiesBindin
 
 import java.util.List;
 
-@ConfigurationProperties(prefix = "netty")
+@ConfigurationProperties(prefix = "com.netty")
 public class GatewayConfig {
     private String routerName;
     private List<String> enableFilters;

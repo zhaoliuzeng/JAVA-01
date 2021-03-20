@@ -4,14 +4,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.github.kimmking</groupId>
-    <artifactId>netty-gateway</artifactId>
+    <artifactId>com.netty-gateway</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <modules>
-        <module>netty-gatway-starter</module>
+        <module>com.netty-gatway-starter</module>
     </modules>
     <packaging>pom</packaging>
 
-    <name>netty-gateway-new</name>
+    <name>com.netty-gateway-new</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>
@@ -30,15 +30,15 @@
     <dependencies>
 
         <dependency>
-            <groupId>io.netty</groupId>
-            <artifactId>netty-all</artifactId>
+            <groupId>io.com.netty</groupId>
+            <artifactId>com.netty-all</artifactId>
             <version>4.1.45.Final</version>
         </dependency>
 
 
         <dependency>
             <groupId>com.demo</groupId>
-            <artifactId>netty-gatway-spring-boot-starter</artifactId>
+            <artifactId>com.netty-gatway-spring-boot-starter</artifactId>
             <version>0.0.1-RELEASE</version>
         </dependency>
 

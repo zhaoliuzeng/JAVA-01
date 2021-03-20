@@ -10,9 +10,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.demo</groupId>
-    <artifactId>netty-gatway-spring-boot-starter</artifactId>
+    <artifactId>com.netty-gatway-spring-boot-starter</artifactId>
     <version>0.0.1-RELEASE</version>
-    <name>netty-gatway-spring-boot-starter</name>
+    <name>com.netty-gatway-spring-boot-starter</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

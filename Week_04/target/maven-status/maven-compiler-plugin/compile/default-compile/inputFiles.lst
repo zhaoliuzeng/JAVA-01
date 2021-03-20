@@ -1,7 +1,7 @@
-C:\codes\JAVA01ZHAO\Week_03\src\main\java\com\netty\gateway\filter\PreLog2Filter.java
-C:\codes\JAVA01ZHAO\Week_03\src\main\java\com\netty\gateway\filter\FilterChain.java
-C:\codes\JAVA01ZHAO\Week_03\src\main\java\com\netty\gateway\filter\GlobelFilter.java
+C:\codes\JAVA01ZHAO\Week_03\src\main\java\com\com.netty\gateway\filter\PreLog2Filter.java
+C:\codes\JAVA01ZHAO\Week_03\src\main\java\com\com.netty\gateway\filter\FilterChain.java
+C:\codes\JAVA01ZHAO\Week_03\src\main\java\com\com.netty\gateway\filter\GlobelFilter.java
 C:\codes\JAVA01ZHAO\Week_03\src\main\java\SpringCloudGatewayApplication.java
-C:\codes\JAVA01ZHAO\Week_03\src\main\java\com\netty\gateway\filter\Order.java
-C:\codes\JAVA01ZHAO\Week_03\src\main\java\com\netty\gateway\filter\Poster2LogFilter.java
-C:\codes\JAVA01ZHAO\Week_03\src\main\java\com\netty\gateway\outbound\HttpInvoke.java
+C:\codes\JAVA01ZHAO\Week_03\src\main\java\com\com.netty\gateway\filter\Order.java
+C:\codes\JAVA01ZHAO\Week_03\src\main\java\com\com.netty\gateway\filter\Poster2LogFilter.java
+C:\codes\JAVA01ZHAO\Week_03\src\main\java\com\com.netty\gateway\outbound\HttpInvoke.java

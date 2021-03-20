@@ -1,0 +1,11 @@
+com\confuration\ServiceFactory.class
+com\confuration\ServiceProxy.class
+com\confuration\FkAutoConfiguration.class
+com\confuration\ServiceBeanDefinitionRegistry.class
+com\netty\NettyServer.class
+com\netty\EchoClient.class
+com\netty\EchoServerHandler.class
+com\netty\NettyClient.class
+com\netty\NettyServer$1.class
+com\netty\EchoClient$1.class
+com\netty\EchoClientHandler.class

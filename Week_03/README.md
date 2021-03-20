@@ -4,7 +4,7 @@
 第三课 Netty原理与API网关
 （必做）整合你上次作业的 httpclient/okhttp；
 
-（选做）使用 netty 实现后端 http 访问（代替上一步骤）
+（选做）使用 com.netty 实现后端 http 访问（代替上一步骤）
 
 第四课 Java并发编程(1)
 （必做）实现过滤器。
